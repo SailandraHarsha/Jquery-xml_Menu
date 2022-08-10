@@ -1,0 +1,8 @@
+Jquery Code in ready:
+CreateMenu("[Path]/Admin.xml", [User Profile Pic], [User Valid Menu list separated by commas]);
+
+In Master Page add in html
+<div id="Geo-menu" class="sm-main"></div>
+
+Online Demo:
+https://www.jqueryscript.net/menu/Creating-A-Sliding-Side-Menu-with-jQuery-CSS3-SideMenu-js.html

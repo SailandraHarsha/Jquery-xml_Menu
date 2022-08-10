@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MenuRoot>
+  <Menu MID="1" icon="edit" id="Home_Page" text="Home Page" url="[Page Path]"></Menu>
+  <Menu MID="2" icon="edit" id="Document_Upload" text="Document Upload" url="[Page Path]"></Menu>
+  <Menu MID="3" icon="sitemap" id="Inbox_Management" text="Mail Management" url="#">
+    <SubMenu MID="4"  icon="edit" id="Document_Inbox" text="Inbox" url="[InboxPath]?InboxType=Inbox"></SubMenu>
+    <SubMenu MID="5"  icon="edit" id="Document_Sent" text="Sent" url="[InboxPath]?InboxType=Sent"></SubMenu>
+    <SubMenu MID="6"  icon="edit" id="Document_Shared" text="Shared" url="[InboxPath]?InboxType=Shared"></SubMenu>
+    <SubMenu MID="7"  icon="edit" id="Document_History" text="History" url="[InboxPath]?InboxType=History"></SubMenu>
+    <SubMenu MID="8"  icon="edit" id="Document_Reports" text="Report" url="[InboxPath]?InboxType=Reports"></SubMenu>
+  </Menu>
+  <Menu MID="9" icon="sitemap" id="Folder_Management" text="Folder Management" url="#">
+    <SubMenu MID="10"  icon="edit" id="Private_Folder" text="Private Folders" url="[InboxPath]?InboxType=Private_Folder"></SubMenu>
+    <SubMenu MID="11"  icon="edit" id="Public_Folder" text="Public Folders" url="[InboxPath]?InboxType=Public_Folder"></SubMenu>
+  </Menu>
+  <Menu MID="12" icon="edit" id="Search" text="Search" url="[Page Path]"></Menu>
+  <Menu MID="13" icon="sitemap" id="User_Management" text="User Management" url="#">
+    <SubMenu MID="14" icon="edit" id="New_User" text="New User" url="[Page Path]"></SubMenu>
+    <SubMenu MID="15" icon="edit" id="Registered_User" text="Registered User" url="[Page Path]"></SubMenu>
+  </Menu>
+  <Menu MID="16" icon="edit" id="Task_Scheduler" text="Task Scheduler" url="[Page Path]"></Menu>
+  <Menu MID="17" icon="sitemap" id="Report_Management" text="Report Management" url="[Page Path]"></Menu>
+  <Menu MID="18" icon="edit" id="Personal_Family_Details" text="Personal and Family Details" url="[Page Path]"></Menu>
+  <Menu MID="19" icon="edit" id="Events_Holidays_Announcements" text="Events, Holidays and Announcements" url="[Page Path]"></Menu>
+  <Menu MID="20" icon="edit" id="File_Share" text="File Share" url="[Page Path]"></Menu>
+  <Menu MID="21" icon="edit" id="Change_Password" text="Change Password" url="[Page Path]"></Menu>
+</MenuRoot>
